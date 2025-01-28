@@ -13,29 +13,15 @@ npx tsc --init
 ```
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "CommonJS",
-    "lib": ["ES2020", "DOM"],
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-
-    "moduleResolution": "node",
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["src/*"]
-    },
-
-
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "esModuleInterop": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules"]
 }
 
 ```
