@@ -1,3 +1,12 @@
+import AdvancedTypes from "./advanedtype";
+import AnyType from "./any";
+import ArrayofObject from "./arrayofobject";
+import Arrays from "./arrays";
+import FunctionExample from "./function";
+import Interfaces from "./Interfaces";
+import ObjectExamples from "./object";
+import Tuple from "./tuple";
+
 let a : number = 1;
 let b:number = 2;
 
@@ -19,3 +28,12 @@ console.log(isRight)
 console.log(typeof Name)
 console.log(typeof std_roll)
 console.log(typeof isRight)
+
+AnyType();
+Arrays();
+Tuple();
+Interfaces();
+ObjectExamples();
+ArrayofObject();
+FunctionExample();
+AdvancedTypes();
