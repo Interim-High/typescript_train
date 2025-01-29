@@ -19,3 +19,5 @@ function getFirstElement<T>(value: T[]):T{
 console.log(getFirstElement([2,5,8,7,9]));
 
 }
+
+console.log("hey there!!!");
