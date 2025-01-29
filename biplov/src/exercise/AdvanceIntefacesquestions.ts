@@ -247,6 +247,7 @@ enum status {
     name : string ,
     age : number ,
     status: status,
+    
   }
   function StatusDetails (human20 : Person30){
     console.log(`she is ${human20.status}`)
